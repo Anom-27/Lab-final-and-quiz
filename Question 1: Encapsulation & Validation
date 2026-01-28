@@ -17,8 +17,8 @@ class Student {
 public class Q1Test {
     public static void main(String[] args) {
         Student s = new Student();
-        s.setId(101);
-        s.setName("Imran");
+        s.setId(61);
+        s.setName("Anom");
         s.setCgpa(3.5);
         s.setCgpa(5.0); // invalid
         System.out.println(s.getName() + " " + s.getCgpa());
