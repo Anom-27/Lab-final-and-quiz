@@ -5,13 +5,13 @@ class Employee {
 class FullTimeEmployee extends Employee {
     @Override
     double calculateSalary() {
-        return 50000; // fixed monthly salary
+        return 50000;
     }
 }
 class PartTimeEmployee extends Employee {
     @Override
     double calculateSalary() {
-        return 200 * 80; // hourly based
+        return 200 * 80; 
     }
 }
 public class Q2Test {
